@@ -1,0 +1,13 @@
+.alfa {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1em;
+  border-top: none;
+  border-bottom-color: red;
+}
+/*# sourceMappingURL=app.css.map */

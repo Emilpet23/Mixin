@@ -1,0 +1,26 @@
+@mixin triangle($direction, $color: currentColor, $size: 1em) {
+    @if not index(top right bottom left, $direction) {
+      @error "Direction must be either 'top', 'right', 'bottom' or 'left'.";
+    }
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: $size;
+    border-#{$direction}: none;
+    @if $direction== "top" {
+      border-bottom-color: $color;
+    }
+    @if $direction== "right" {
+      border-left-color: $color;
+    }
+    @if $direction== "bottom" {
+      border-top-color: $color;
+    }
+    @if $direction== "left" {
+      border-right-color: $color;
+    }
+  }  

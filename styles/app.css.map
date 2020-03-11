@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,GAAG;CAClB;;AAED,AAAA,KAAK,CAAC;ECFF,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;EACd,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,KAAK;EACnB,YAAY,EAAE,WAAW;EACzB,YAAY,EDJ+B,GAAG;ECK9C,UAAoB,EAAS,IAAI;EAE/B,mBAAmB,EDPU,GAAG;CACrC",
+    "sources": [
+        "app.scss",
+        "mixin.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}
